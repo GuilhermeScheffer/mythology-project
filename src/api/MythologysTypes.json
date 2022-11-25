@@ -2,19 +2,19 @@
     "Types": [
         {
             "name": "grega",
-            "image": "url(/imgs/greek.jpg)"
+            "image": "black"
         },
         {
             "name": "egipcia",
-            "image": "url(/imgs/egypt.jpg)"
+            "image": "black"
         },
         {
             "name": "nordica",
-            "image": "url(/imgs/greek.jpg)"
+            "image": "black"
         },
         {
             "name": "japonesa",
-            "image": "url(/imgs/greek.jpg)"
+            "image": "black"
         }
     ]
 }

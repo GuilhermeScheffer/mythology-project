@@ -5,7 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(34,193,195,1) 100%);
+  background-image: url('/public/imgs/backgroundpage.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 code {

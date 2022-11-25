@@ -1,6 +1,7 @@
 .banner {
     text-align: center;
     border: 10px solid black;
+    height: 560px;
 }
 .banner img {
     max-width: 100%;
