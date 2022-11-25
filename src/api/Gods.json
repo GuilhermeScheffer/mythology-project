@@ -1,0 +1,14 @@
+[
+    {
+        "Grega": [
+            {"name": "zeus"},
+            {"name": "poseidon"}
+        ]
+    },
+    {
+        "egipcia": [
+            {"name": "anubis"},
+            {"name": "osiris"}
+        ]
+    }
+]

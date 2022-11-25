@@ -1,0 +1,20 @@
+{
+    "Types": [
+        {
+            "name": "grega",
+            "image": "url(/imgs/greek.jpg)"
+        },
+        {
+            "name": "egipcia",
+            "image": "url(/imgs/egypt.jpg)"
+        },
+        {
+            "name": "nordica",
+            "image": "url(/imgs/greek.jpg)"
+        },
+        {
+            "name": "japonesa",
+            "image": "url(/imgs/greek.jpg)"
+        }
+    ]
+}

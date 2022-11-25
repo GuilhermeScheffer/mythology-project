@@ -1,0 +1,11 @@
+.statement {
+    text-align: center;
+    margin: 64px 0;
+}
+
+.statement h1 {
+    font-size: 34px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+

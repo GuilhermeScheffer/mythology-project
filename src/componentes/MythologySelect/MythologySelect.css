@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 50px;
+    font-size: 20px;
+}
+
+.container select {
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}

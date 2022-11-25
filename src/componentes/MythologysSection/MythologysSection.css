@@ -1,0 +1,29 @@
+.mythologys-section {
+    text-align: center;
+    padding: 32px;
+}
+
+.image {
+    display: flex;
+    height: 500px;
+    justify-content: space-around;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: 1920px 700px;
+    background-position: center;
+
+}
+
+.mythologys-section h3 {
+    font-size: 32px;
+    border-bottom: 4px solid;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+
+.mythologys-section .mythologys-section h3 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 32px;
+    flex-wrap: wrap;
+}

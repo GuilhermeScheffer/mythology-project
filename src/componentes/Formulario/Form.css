@@ -1,0 +1,13 @@
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.form form {
+    width: 540px;
+    background-color: #f2f2f2;
+    width: 700px;
+    height: 800px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}

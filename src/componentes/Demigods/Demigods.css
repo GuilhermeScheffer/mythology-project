@@ -1,0 +1,24 @@
+.demigod-card {
+    width: 280px;
+    height: 400px;
+    border: 2px solid black;
+    /* background-image: url('/public/imgs/background.jpg'); */
+    border-image-slice: 77 75 80 79;
+    border-image-width: 42px 42px 42px 42px;
+    border-image-outset: 0px 0px 0px 0px;
+    border-image-repeat: round round;
+    border-image-source: url("https://mdn.github.io/css-examples/tools/border-image-generator/border-image-6.svg");
+    border-style: solid;
+}
+
+
+
+
+
+.demigod-card .name-age h4, h5{
+    color: #030303;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+
+}
