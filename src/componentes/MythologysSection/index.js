@@ -2,7 +2,7 @@ import Demigod from "../Demigods"
 import "../MythologysSection/MythologysSection.css"
 
 const MythologySection = (props) => {
-    const css = {backgroundColor: props.background}
+    const css = {background: props.background}
     return(
         <section className="mythologys-section">
             <h3>{props.name}</h3>

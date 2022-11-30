@@ -1,6 +1,6 @@
 import React from 'react';
 import Banner from './componentes/Banner/Banner';
-import Formulario from './componentes/Formulario';
+import Formulario from './componentes/Form';
 import MythologySection from './componentes/MythologysSection';
 import Statement from './componentes/Statement/Statement';
 import MythologysTypes from './api/MythologysTypes.json'
@@ -19,7 +19,8 @@ function App() {
 
 
     const [mythologysList, setMytholysList] = useState(MythologysTypes.Types)
-    const [godsNamesList, setGodName] = useState(Gods)
+    const [godsNamesList, setGodName] = useState(Gods.Types)
+    {godsNamesList.map(item => console.log(item))}
 
     const [demigods, setDemigods] = useState([])
 

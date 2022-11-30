@@ -5,12 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('/public/imgs/backgroundpage.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: rgb(208,199,190);
+  background: linear-gradient(180deg, rgba(208,199,190,1) 0%, rgba(50,47,45,1) 100%);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
 }

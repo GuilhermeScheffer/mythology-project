@@ -12,7 +12,7 @@ const Demigod = ({name, age, mythology}) => {
                 <img src="/imgs/poseidon.png" alt="imagem poseidon"></img>   
             </div>
             <div className="about-card">
-                <p>{name}, filho do Deus "DEUS" tem poderes incriveis</p>
+                <p>{name}, filho do Deus Poseidon, tem poderes incriveis e uma rola enorme</p>
             </div>
         </div>
     )
