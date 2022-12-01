@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     margin: 0 50px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .container select {
@@ -10,4 +10,5 @@
     padding: 8px;
     font-size: 18px;
     font-weight: 600;
+    font-family: 'Nerko One', cursive;
 }

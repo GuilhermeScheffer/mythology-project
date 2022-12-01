@@ -1,39 +1,20 @@
 {
     "Types": [
         {
-            "name": "grega",
-            "image": "url(imgs/zeus.jpg)"
+            "name": "Grega",
+            "image": "url(imgs/greek.jpg)"
         },
         {
-            "name": "egipcia",
-            "image": "black"
+            "name": "Egípcia",
+            "image": "url(imgs/egypt2.jpg)"
         },
         {
-            "name": "nordica",
-            "image": "black"
+            "name": "Nórdica",
+            "image": "url(imgs/norse2.jpg)"
         },
         {
-            "name": "japonesa",
-            "image": "black"
-        }
-    ],
-    "Gods": [
-        {
-            "grega": ["zeus", "poseidon","hades", "atena", "artemis"],
-            "image": "url(imgs/zeus.jpg)"
-        },
-        {
-            "egipcia": ["seth", "ra", "anubis", "osiris", "isis"],
-            "image": "black"
-        },
-        {
-            "nordica": ["thor", "odin", "tyr", "loki", "frigga"],
-            "image": "black"
-        },
-        {
-            "japonesa": ["shinigami", "kagutsuchi", "amaterasu", "tsuki-yomi", "susanowo"],
-            "image": "black"
+            "name": "Japonesa",
+            "image": "url(imgs/japanese2.jpg)"
         }
     ]
-    
 }

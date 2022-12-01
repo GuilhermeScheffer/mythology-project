@@ -2,7 +2,8 @@
     display: flex;
     margin: 50px 50px 0 50px;
     flex-direction: column;
-    font-size: 18px;
+    font-size: 20px;
+    font-family: 'Nerko One', cursive;
 }
 
 .inputs input {
@@ -10,4 +11,5 @@
     margin-bottom: 30px;
     padding: 8px;
     font-size: 18px;
+    font-family: 'Nerko One', cursive;
 }

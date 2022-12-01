@@ -1,21 +1,24 @@
 
-{
-    "Types": [
-        {
-            "grega": ["zeus", "poseidon","hades", "atena", "artemis"],
-            "image": "url(imgs/zeus.jpg)"
+[
+       {
+            "name": ["Zeus", "Poseidon","Hades", "Atena", "Ártemis"],
+            "image": "url(imgs/zeus.jpg)",
+            "id": "grega"
         },
         {
-            "egipcia": ["seth", "ra", "anubis", "osiris", "isis"],
-            "image": "black"
+            "name": ["Seth", "Rá", "Anúbis", "Osíris", "Ísis"],
+            "image": "black",
+            "id": "egipcia"
         },
         {
-            "nordica": ["thor", "odin", "tyr", "loki", "frigga"],
-            "image": "black"
+            "name": ["Thor", "Odin", "Tyr", "Loki", "Frigga"],
+            "image": "black",
+            "id": "nordica"
         },
         {
-            "japonesa": ["shinigami", "kagutsuchi", "amaterasu", "tsuki-yomi", "susanowo"],
-            "image": "black"
+            "name": ["Shinigami", "Kagutsuchi", "Amaterasu", "Tsuki-yomi", "Susanowo"],
+            "image": "black",
+            "id": "japonesa"
         }
-    ]
-}
+    
+]

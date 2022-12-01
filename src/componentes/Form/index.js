@@ -3,6 +3,7 @@ import MythologySelect from '../Selects'
 import Inputs from '../Inputs'
 import Button from '../Button'
 import { useState } from 'react'
+import GodsSelect from '../GodsSelect'
 
 
 const Formulario = (props) => {
@@ -17,7 +18,8 @@ const Formulario = (props) => {
         props.newdemigodadd({
             name,
             age,
-            mythology
+            mythology,
+            god
         })
         setName('')
         setAge('')
@@ -38,11 +40,12 @@ const Formulario = (props) => {
                 <MythologySelect 
                 mythologyslist={props.mythologyslist} 
                 setmythology={mythology => setMythology(mythology)}
-                valuemythology={mythology}
+                valuemythology={mythology}/>
+                <GodsSelect 
                 godsnameslist={props.godsnameslist}
                 setgod={god => setGod(god)}
-                valuegod={god}/>
-
+                valuegod={god}
+                mythology={mythology}/>
                 <Button>
                     Criar Semideus
                 </Button>

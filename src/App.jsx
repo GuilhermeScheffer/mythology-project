@@ -19,9 +19,7 @@ function App() {
 
 
     const [mythologysList, setMytholysList] = useState(MythologysTypes.Types)
-    const [godsNamesList, setGodName] = useState(Gods.Types)
-    {godsNamesList.map(item => console.log(item))}
-
+    const [godsNamesList, setGodName] = useState(Gods)
     const [demigods, setDemigods] = useState([])
 
     const newDemigodAdd = (demigod) => {
@@ -40,7 +38,8 @@ function App() {
     <div className="App">
       <Banner />
       <Statement />
-      <Formulario mythologyslist={mythologysList} 
+      <Formulario 
+      mythologyslist={mythologysList} 
       godsnameslist={godsNamesList}
       newdemigodadd={newDemigodAdd}/>
 

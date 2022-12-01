@@ -9,6 +9,7 @@ button {
     margin-left: 50px;
     justify-self: center;
     clip-path: polygon(100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0 0);
+    font-family: 'Nerko One', cursive;
 }
 
 .button:hover {

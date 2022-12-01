@@ -1,0 +1,78 @@
+.demigod-card {
+    width: 300px;
+    height: 440px;
+    border: 1px solid #AD8214;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    background-image: url('/public/imgs/rocktexture.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.3s all;
+}
+
+.demigod-card:hover {
+    transform: scale(1.05);
+
+} 
+.name-age h4 {
+    position: absolute;
+    margin-left: 20px;
+    border: solid 2px #D4A633;
+    border-radius: 100%;
+    padding: 8px;
+    background: linear-gradient(0deg, #D4A633 20.69%, #F7E3B1 84.48%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+}
+
+.name-age h5 {
+    position: absolute;
+    margin: 32px 0 0 80px;
+    font-size: 24px;
+    font-weight: 900;
+    background: linear-gradient(0deg, #D4A633 20.69%, #F7E3B1 84.48%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.name-age {
+    margin-bottom: 100px;
+}
+
+
+
+.about-card {
+    background: radial-gradient(48.26% 605.51% at 50% 63.25%, #FFCF55 0%, rgba(185, 138, 17, 0.91) 100%);
+    height: 70px;
+    padding-left: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.about-card p{
+    text-align: start;
+    margin-left: 6px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.demigod-card .name-age h4{
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: bold;
+
+}
+
+.demigod-image img{
+    width: 250px;
+    height: 230px;
+    border: 2px solid #AD8214;
+    margin-bottom: 12px;
+    border-radius: 10px 10px 0 0;
+}
